@@ -30,6 +30,6 @@
 | M3      | Système de fichiers & permissions      | ✅     | /20              |
 | M4      | Service systemd custom                 | ✅     | /20              |
 | M5      | Sécurisation SSH & pare-feu            | ✅     | /20              |
-| Bonus   | (optionnel)                            | ⚠️     | /10              |
+| Bonus   | (optionnel)                            | ✅     | /10              |
 
 > Mettre à jour les statuts (✅ / ⚠️ / ❌) au fur et à mesure de l'avancement.
