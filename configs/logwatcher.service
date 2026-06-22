@@ -1,0 +1,26 @@
+# ============================================================
+# Fichier  : logwatcher.service
+# Auteur   : Celina AZZOUZI
+# Date     : 2026-06-20
+# Desc     : Service systemd pour la surveillance SSH
+# Deploy   : sudo cp configs/logwatcher.service /etc/systemd/system/
+#            sudo systemctl daemon-reload
+#            sudo systemctl enable --now logwatcher
+# ============================================================
+
+[Unit]
+Description=Service de surveillance des tentatives de connexion SSH suspectes
+After=network.target syslog.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /home/celina/linux-admin-b2-celina-azzouzi/scripts/logwatcher.sh
+Restart=on-failure
+RestartSec=10s
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=logwatcher
+
+[Install]
+WantedBy=multi-user.target
