@@ -1,8 +1,8 @@
 # Devoir Administration Linux B2 — Promotion 2025/2026
 
-**Nom / Prénom :** (à compléter)
+**Nom / Prénom :AZZOUZI Celina
 **Niveau :** B2 Bachelor Informatique, 2e année
-**Date :** (à compléter)
+**Date :** 2026-06-22
 
 ## Résumé des missions
 
@@ -25,11 +25,11 @@
 
 | Mission | Description                          | Statut | Points estimés |
 |---------|---------------------------------------|--------|-----------------|
-| M1      | Mise en place du dépôt GitHub          | ⚠️     | /10              |
-| M2      | Gestion des utilisateurs & groupes     | ⚠️     | /20              |
-| M3      | Système de fichiers & permissions      | ⚠️     | /20              |
-| M4      | Service systemd custom                 | ⚠️     | /20              |
-| M5      | Sécurisation SSH & pare-feu            | ⚠️     | /20              |
+| M1      | Mise en place du dépôt GitHub          | ✅     | /10              |
+| M2      | Gestion des utilisateurs & groupes     | ✅     | /20              |
+| M3      | Système de fichiers & permissions      | ✅     | /20              |
+| M4      | Service systemd custom                 | ✅     | /20              |
+| M5      | Sécurisation SSH & pare-feu            | ✅     | /20              |
 | Bonus   | (optionnel)                            | ⚠️     | /10              |
 
 > Mettre à jour les statuts (✅ / ⚠️ / ❌) au fur et à mesure de l'avancement.
